@@ -1,0 +1,10 @@
+package org.example;
+
+public class ErrorPrecision_Fragmento4 {
+    public static void main(String[] args) {
+        int tareasCompletadas = 3;
+        int tareasTotales = 4;
+        double porcentajeAvance = ((double) tareasCompletadas / tareasTotales) * 100;
+        System.out.println("El porcentaje de avance es: " + porcentajeAvance + "%");
+    }
+}
